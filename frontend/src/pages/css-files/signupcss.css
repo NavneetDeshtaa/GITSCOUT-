@@ -1,0 +1,89 @@
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 24px; 
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.signup-box {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.03); 
+  backdrop-filter: blur(10px); 
+  border-radius: 8px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 0;
+  max-width: 384px; 
+  padding: 0;
+}
+
+.signup-content {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.signup-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.signup-button {
+  color: white;
+  background-color: #24292F;
+  font-weight: 500;
+  border-radius: 8px;
+  display: flex;
+  gap: 8px; 
+  padding: 8px;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.signup-button:hover {
+  background-color: rgba(36, 41, 47, 0.9);
+}
+
+.signup-button:focus {
+  box-shadow: 0 0 0 4px rgba(36, 41, 47, 0.5);
+}
+
+.github-icon {
+  width: 20px; 
+  height: 20px; 
+}
+
+.signup-info {
+  color: #D1D5DB;
+}
+
+.unlock-icon {
+  width: 16px; 
+  height: 16px;
+  vertical-align: middle;
+  margin-left: 8px; 
+}
+
+.signup-text {
+  font-size: 14px; 
+  font-weight: 300;
+  color: #6B7280;
+}
+
+.login-link {
+  font-weight: 500;
+  color: #1D4ED8;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,113 @@
+.profile-container {
+    width:400px;
+    display: flex;
+    flex-direction: column;
+    gap:1px;
+    position: sticky;
+    top: 40px;
+    margin-right:30px;
+    margin-top:20px;
+}
+
+.profile-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius:10px;
+    padding:10px;
+    max-width:350px; 
+    width:100%;
+    
+}
+
+.profile-header {
+    display: flex;
+    gap:12px;
+    align-items: center;
+}
+
+.profile-avatar {
+    border-radius: 8px;
+    width: 96px;
+    height: 96px;
+    margin-bottom: 8px;
+}
+
+.profile-actions {
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-view {
+    background: rgba(255, 255, 255, 0);
+    font-weight:00;
+    width: 100%;
+    font-size: 12px;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px solid #60a5fa;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.profile-bio,
+.profile-location,
+.profile-twitter {
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+
+.profile-twitter:hover {
+    color: #38bdf8;
+}
+
+.profile-member-since,
+.profile-email,
+.profile-name,
+.profile-username {
+    margin: 8px 0;
+}
+
+.profile-member-since p:first-child,
+.profile-email p:first-child,
+.profile-name p:first-child,
+.profile-username p:first-child {
+    color: #6b7280;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.profile-stats {
+    display: flex;
+    gap: 100px; 
+    margin-top: 16px;
+    flex-wrap: wrap;
+}
+
+.following{
+    margin-left: 17px;
+}
+
+.profile-stat {
+    display: flex;
+    align-items:center;
+    gap:10px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    padding: 8px;
+    max-width: 180px; 
+}
+
+.profile-stat p {
+    font-size:14px;
+}
+
+.profile-stat .icon {
+    width: 20px;
+    height: 20px;
+    color: #1e40af;
+}

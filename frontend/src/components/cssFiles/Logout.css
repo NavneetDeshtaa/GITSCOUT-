@@ -1,0 +1,29 @@
+.avatar {
+	width: 40px;
+	height: 40px;
+	border-radius: 9999px;
+	border: 1px solid #2d3748;
+	margin-bottom: 12px;
+}
+
+.logout-button {
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	padding: 8px;
+	border-radius: 8px;
+	background-color: rgba(255, 255, 255, 0.9);
+	margin-top: auto;
+	margin-bottom: 10px;
+	border: 1px solid #2d3748;
+}
+
+.logout-button:hover {
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+@media (max-width: 455px) {
+	.logout-button {
+		padding: 2px;
+	}
+}

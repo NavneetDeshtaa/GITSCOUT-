@@ -1,0 +1,11 @@
+.app-container {
+  display: flex;
+}
+
+.content-container {
+  max-width: 64rem; 
+  margin: 1.25rem auto; 
+  color: #ffffff; 
+  transition: all 0.3s; 
+  flex: 1;
+}

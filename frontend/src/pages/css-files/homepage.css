@@ -1,0 +1,40 @@
+.homepage-container {
+    margin:0.5rem;
+  }
+  
+  .homepage-content {
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    justify-content:start;
+    align-items: flex-start;
+  }
+
+  .userprofile{
+    margin-top: 65px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 70px; 
+  }
+  
+  @media (max-width:1000px) {
+
+    .homepage-content {
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      max-width: 100%;
+    }
+
+    .userprofile{
+      position: relative;
+      margin-top: 0px;
+      display: flex;
+      gap: 1rem;
+      flex-direction: row;
+      justify-content: start;
+      align-items: flex-start;
+      top: 0;
+    }
+  }
+  
