@@ -20,7 +20,7 @@ const ProfileInfo = ({ userProfile }) => {
         } else {
             
             window.location.href = '/signup'; 
-           toast.success("Please signup first")
+           toast.error("Please signup first")
         }
     };
 
