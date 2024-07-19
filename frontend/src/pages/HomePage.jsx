@@ -17,7 +17,7 @@ const HomePage = () => {
     setLoading(true);
 
     try {
-      const res = await fetch(`http://localhost:5000/api/users/profile/${username}`);
+      const res = await fetch(`https://gitscout.onrender.com/api/users/profile/${username}`);
       const { repos, userProfile } = await res.json();
 
       setRepos(repos);

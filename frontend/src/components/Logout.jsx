@@ -8,7 +8,7 @@ const Logout = () => {
 
 	const handleLogout = async () => {
 		try {
-			const res = await fetch("http://localhost:5000/api/auth/logout", { credentials: "include" });
+			const res = await fetch("https://gitscout.onrender.com/api/auth/logout", { credentials: "include" });
 			const data = await res.json();
 			console.log(data);
 			setAuthUser(null);
