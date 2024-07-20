@@ -78,5 +78,5 @@ Start the server
 
 ## Feedback
 
-If you have any feedback, please reach out to us at navneetdeshtaa@gmail.com
+If you have any feedback, please reach out to me at navneetdeshtaa@gmail.com
 
