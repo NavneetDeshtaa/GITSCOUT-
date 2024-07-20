@@ -10,23 +10,6 @@ followers, following, and repositories and much more ....
 **Server:** Node, Express , MongoDB , Passport.js
 
 
-## Environment Variables
-
-To run this project, you will need to add the following environment variables to your .env file
-
-`PORT `
-
-`MONGO_URI`
-
-`GITHUB_API_KEY`
-
-`GITHUB_CLIENT_ID`
-
-`GITHUB_CLIENT_SECRET`
-
-`CLIENT_BASE_URL`
-
-
 ## Screenshots
 
 HOME PAGE : 
@@ -48,6 +31,22 @@ SIGNUP PAGE :
 ## Demo
 
 https://gitscout.onrender.com
+
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+`PORT `
+
+`MONGO_URI`
+
+`GITHUB_API_KEY`
+
+`GITHUB_CLIENT_ID`
+
+`GITHUB_CLIENT_SECRET`
+
+`CLIENT_BASE_URL`
 
 
 ## Run Locally
